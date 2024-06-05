@@ -28,4 +28,4 @@ var reverse = function(curr){
         curr = next; 
     }
     return prev 
-};
+}
