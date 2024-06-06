@@ -1,0 +1,18 @@
+const returnMoney = givenMoney => {
+
+ let changeMoney = 1000 - givenMoney;
+    
+ const indexMoney = [500,100,50,10,5,1];
+ const arr = [];
+
+  for(let i = 0 ; i < indexMoney.length; i++){
+      arr.push(Math.trunc(changeMoney/indexMoney[i]));
+      changeMoney -= indexMoney[i]*arr[i];
+  }
+
+  return arr;
+}
+
+returnMoney(1)
+returnMoney(999)
+returnMoney(0)
