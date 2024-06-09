@@ -6,4 +6,4 @@ function twoSum(nums: number[], target: number): number[] {
        if(index > 0) {arr.push(i,index); break;}
     }
     return arr;
-};
+}
