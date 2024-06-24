@@ -9,3 +9,13 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
+//iteratively
+function reverseList(head) {
+    console.dir(head)
+    var prev = null;
+    while (head) {
+
+    }
+    return prev;
+}
