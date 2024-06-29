@@ -11,6 +11,6 @@ for (let i = 0; i < heights.length; i++) {
 		}
 	stack.push([heightStart, heights[i]]);
 }
-return stack;
+return res;
     
 };
