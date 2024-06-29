@@ -9,7 +9,7 @@ for (let i = 0; i < heights.length; i++) {
 			res = Math.max(res, (i - pos) * height);
 			heightStart = pos; 
 		}
-	stack.push([heightStart, heights[i]]);
+	stack.push([heightStart, heights[i]])
 }
 return stack;
     
