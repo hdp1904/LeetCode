@@ -9,7 +9,7 @@ function getSum(a: number, b: number): number {
         // Carry is shifted by one so that adding it to a gives the required sum
         b = carry << 1;
     }
-    return b
+    return b;
     
 };
 
