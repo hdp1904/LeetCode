@@ -6,7 +6,7 @@ function addDigits(num: number): number {
         for(let i of string){
             returnNum+=parseInt(i,10);
         }
-        string = returnNum.toString(10);
+        string = returnNum.toString(1);
     }
     return returnNum
 };
