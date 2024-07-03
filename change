@@ -15,4 +15,4 @@ const returnMoney = givenMoney => {
 
 returnMoney(1);
 returnMoney(999);
-returnMoney(0)
+returnMoney(0);
