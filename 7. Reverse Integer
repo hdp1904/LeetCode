@@ -5,6 +5,8 @@ function reverse(x: number): number {
     while(newStr.startsWith("0")){
         newStr = newStr.replace("0","");
     }
+    let num: number = x >= 0 ? Number(newStr) : -Number(newStr);
+
 
 
     return num;
