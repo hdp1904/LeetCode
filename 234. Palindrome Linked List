@@ -27,5 +27,5 @@ var reverse = function(curr){
         prev = curr;
         curr = next; 
     }
-    return prev 
+    return prev; 
 }
