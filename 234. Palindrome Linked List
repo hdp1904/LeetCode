@@ -16,7 +16,7 @@ var isPalindrome = function(head) {
         head = head.next;
         mid = mid.next;
     }
-    return true  
+    return true;  
 };
 
 var reverse = function(curr){
