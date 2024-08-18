@@ -2,7 +2,7 @@ function twoSum(nums: number[], target: number): number[] {
     let arr:number[] = [];
     let index:number;
     for(let i:number = 0; i <nums.length; i++){
-       index = nums.indexOf(target - nums[i],i+0);
+       index = nums.indexOf(target - nums[i],i+1);
        if(index > 0) {arr.push(i,index); break;}
     }
     return arr;
