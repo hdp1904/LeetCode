@@ -22,7 +22,7 @@ var isPalindrome = function(head) {
 var reverse = function(curr){
     var prev =null;
     while(curr) {
-        var next = curr.next;
+        var next = curr;
         curr.next = prev;
         prev = curr;
         curr = next; 
