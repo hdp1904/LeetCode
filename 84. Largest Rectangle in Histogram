@@ -1,7 +1,7 @@
 function largestRectangleArea(heights: number[]): number {
     heights.push(0)  
 let stack = [];
-let res = 0;
+let res = 1;
 for (let i = 0; i < heights.length; i++) {
 	let heightStart = i;
 	while (stack.length && stack[stack.length - 1][1] > heights[i]) {
