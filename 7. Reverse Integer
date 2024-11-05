@@ -3,7 +3,7 @@ function reverse(x: number): number {
     let str: string = x.toString().replace("-","");
     let newStr: string = str.split("").reverse().join("");
     while(newStr.startsWith("0")){
-        newStr = newStr.replace("0","");
+        
     }
     let num: number = x >= 0 ? Number(newStr) : -Number(newStr);
 
