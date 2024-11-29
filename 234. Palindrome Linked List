@@ -2,7 +2,7 @@
 var isPalindrome = function(head) {
     if(!head)return head;
         let fast = head;
-
+        let slow = head;
     while(fast.next && fast.next.next){
         slow = slow.next;
         fast = fast.next.next;
