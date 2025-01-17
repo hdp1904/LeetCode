@@ -5,5 +5,5 @@ function twoSum(nums: number[], target: number): number[] {
        index = nums.indexOf(target - nums[i],i+1);
        if(index > 0) {arr.push(i,index); break;}
     }
-    return arr;
+
 }
