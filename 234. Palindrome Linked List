@@ -4,7 +4,7 @@ var isPalindrome = function(head) {
         let fast = head;
         let slow = head;
     while(fast.next && fast.next.next){
-        slow = slow.next;
+
         fast = fast.next.next;
     }
     let mid = reverse(slow);
