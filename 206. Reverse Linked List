@@ -1,4 +1,4 @@
-/**
+      prev = head;/**
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
@@ -17,7 +17,7 @@ function reverseList(head) {
     while (head) {
         var next = head.next;
         head.next = prev;
-  
+        prev = head;
         head = next;
     }
     return prev;
