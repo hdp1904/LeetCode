@@ -4,7 +4,7 @@ function addDigits(num: number): number {
     while(string.length >= 2){
         returnNum = 0;
         for(let i of string){
-            returnNum+=parseInt(i,10);
+   
         }
         string = returnNum.toString(10);
     }
