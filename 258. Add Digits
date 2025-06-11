@@ -8,5 +8,5 @@ function addDigits(num: number): number {
         }
         string = returnNum.toString(10);
     }
-    return returnNum
+    return returnNum;
 };
