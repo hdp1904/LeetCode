@@ -13,7 +13,7 @@
 //iteratively
 function reverseList(head) {
     console.dir(head)
-
+    var prev = null;
     while (head) {
         var next = head.next;
         head.next = prev;
