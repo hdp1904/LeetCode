@@ -7,7 +7,7 @@
  */
 /**
  * @param {ListNode} head
-
+ * @return {ListNode}
  */
 
 //iteratively
