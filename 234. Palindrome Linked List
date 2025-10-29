@@ -7,7 +7,7 @@ var isPalindrome = function(head) {
         slow = slow.next;
         fast = fast.next.next;
     }
-   
+    let mid = reverse(slow);
     
     while(head && mid){
         if(head.val !== mid.val){
