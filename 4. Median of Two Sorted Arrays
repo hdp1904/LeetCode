@@ -1,6 +1,1 @@
-function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
-    let num: number;
-    let arr: number[] = nums1.concat(nums2).sort((a,b)=>a-b);
-    num = arr.length % 2 === 0 ? (arr[arr.length/2] + arr[arr.length/2-1])/ 2: arr[(arr.length-1)/2];
-    return num
-};
+
